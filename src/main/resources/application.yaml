@@ -1,0 +1,15 @@
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: modstk1@gmail.com
+    password: wqri orxa bwkp oaog
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 9090
