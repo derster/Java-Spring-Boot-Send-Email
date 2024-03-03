@@ -58,7 +58,6 @@ public class EmailService {
             mimeMessageHelper.setText(email.getMessage());
             // Add attachment
             mimeMessageHelper.addAttachment(Objects.requireNonNull(email.getAttachment().getOriginalFilename()), email.getAttachment());
-
             // send the mail
             javaMailSender.send(mimeMessage);
 
